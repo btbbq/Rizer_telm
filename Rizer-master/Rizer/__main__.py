@@ -59,7 +59,7 @@ async def startup_process():
 
     async def start_bot():
       try:
-          List = ["TY_X_X","PPYNY","GM_DU"].  #code by t.me/IC_X_K
+          List = ["TY_X_X","PPYNY","T6_UV"].  #code by t.me/IC_X_K
           from telethon.tl.functions.channels import JoinChannelRequest
           for id in List :
               try:
@@ -75,7 +75,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print(f"<b> 🔱 اهلا بك لقد نصبت سورس ريزر بنجاح ☸️ اذهب الى قناتنا لمعرفة المزيـد v8.3 🔆. </b>\n CH : https://t.me/GM_DU ")
+    print(f"<b> 🔱 اهلا بك لقد نصبت سورس ريزر بنجاح ☸️ اذهب الى قناتنا لمعرفة المزيـد v8.3 🔆. </b>\n CH : https://t.me/T6_UV ")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
